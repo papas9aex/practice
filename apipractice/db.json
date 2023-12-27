@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "Id": 1,
+      "Name": "Updated User",
+      "Email": "updated@example.com",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "John Harden",
+      "email": "johnn@example.com"
+    },
+    {
+      "Id": 4,
+      "Name": "Test User",
+      "Email": "test@example.com",
+      "id": 4
+    },
+    {
+      "Id": 4,
+      "Name": "Test User",
+      "Email": "test1@example.com",
+      "id": 5
+    },
+    {
+      "Id": 4,
+      "Name": "Bogus.DataSets.Name",
+      "Email": "test2@example.com",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Title": "Updated Post",
+      "Body": "This is an updated post.",
+      "id": 1
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Post",
+      "Body": "This is a test post.",
+      "id": 3
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Post",
+      "Body": "This is a test post.",
+      "id": 4
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Post",
+      "Body": "This is a test post.",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "Id": 1,
+      "PostId": 1,
+      "Name": "Updated Commenter",
+      "Email": "updated@example.com",
+      "Body": "This is an updated comment.",
+      "id": 1
+    },
+    {
+      "Id": 3,
+      "PostId": 1,
+      "Name": "Test Commenter",
+      "Email": "test@example.com",
+      "Body": "This is a test comment.",
+      "id": 3
+    }
+  ],
+  "todos": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Title": "Updated Todo",
+      "Completed": true,
+      "id": 1
+    },
+    {
+      "Id": 4,
+      "UserId": 1,
+      "Title": "Test Todo",
+      "Completed": false,
+      "id": 3
+    },
+    {
+      "Id": 4,
+      "UserId": 1,
+      "Title": "Test Todo",
+      "Completed": false,
+      "id": 4
+    },
+    {
+      "Id": 4,
+      "UserId": 1,
+      "Title": "Test Todo",
+      "Completed": false,
+      "id": 5
+    }
+  ],
+  "albums": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Title": "Updated Album",
+      "id": 1
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Album",
+      "id": 3
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Album",
+      "id": 4
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Title": "Test Album",
+      "id": 5
+    }
+  ]
+}
